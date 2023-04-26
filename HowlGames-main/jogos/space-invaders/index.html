@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Josefin+Sans:wght@300;400;600&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/img/invader.png" />
+  </head>
+
+  <body onload="aviso()">
+    <div class="wrap">
+      <header>
+        <h1>Space Invaders</h1>
+        <audio class="audio" src="sound/tsonora.mp3" autoplay loop></audio>
+      </header>
+
+      <div class="game-wrapper">
+        <div class="game"></div>
+        <div class="congratulations">
+          <h1>Parabéns!</h1>
+          <h2>Você Venceu!</h2>
+          <button class="btn" onclick="window.location.reload()">
+            Reiniciar
+          </button>
+        </div>
+        <div class="game-over">
+          <h1>GAME OVER</h1>
+          <h2>Você Perdeu :(</h2>
+          <button class="btn" onclick="window.location.reload()">
+            Reiniciar
+          </button>
+        </div>
+      </div>
+      <footer>
+        Seta esquerda/direita para mover, barra de espaço para atirar
+      </footer>
+    </div>
+    <script src="js/game.js"></script>
+  </body>
+</html>

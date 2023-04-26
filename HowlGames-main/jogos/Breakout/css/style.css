@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 1.2rem;
+  color: #caa8f5;
+}
+
+body {
+  background: #000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#canvas {
+  background: #3d1919;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #490000;
+}
+
+.reset {
+  position: absolute;
+  cursor: pointer;
+  background: rgb(32, 18, 18);
+  text-align: center;
+  padding: 3px 10px;
+  bottom: 0;
+}
