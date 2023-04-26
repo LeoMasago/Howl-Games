@@ -1,3 +1,3 @@
 # Howl-Games
 
-Site com minigames criado no primeiro ano de curso
+Site com minigames desenvolvido no primeiro ano de curso
